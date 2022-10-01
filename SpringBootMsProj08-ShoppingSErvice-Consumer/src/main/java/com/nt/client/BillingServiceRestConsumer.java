@@ -22,5 +22,4 @@ public class BillingServiceRestConsumer {
 		  String  resp=template.getForObject(url,String.class);
 		   return resp;
 	}//method
-
 }//class

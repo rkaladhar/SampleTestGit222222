@@ -19,7 +19,7 @@ public class ShoppingController {
 	 private  int  port;
 	 @Value("${eureka.instance.instance-id}")
 	 private String  instanceId; 
-	
+
 	@GetMapping("/info")
 	public  String   displayShoppingDetails() {
 		return  "Pongal Shopping for Family ....using Ms "+instanceId+" running on port::"+port+"-----"+consumer.getBillingInfo();

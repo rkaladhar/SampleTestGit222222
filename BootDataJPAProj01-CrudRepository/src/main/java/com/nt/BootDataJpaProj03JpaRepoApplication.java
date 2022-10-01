@@ -16,5 +16,4 @@ public class BootDataJpaProj03JpaRepoApplication {
 		
 		SpringApplication.run(BootDataJpaProj03JpaRepoApplication.class, args);
 			}
-
 }

@@ -9,5 +9,4 @@ public class BatchApp02CsvToOracleDbTableApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BatchApp02CsvToOracleDbTableApplication.class, args);
 	}
-
 }

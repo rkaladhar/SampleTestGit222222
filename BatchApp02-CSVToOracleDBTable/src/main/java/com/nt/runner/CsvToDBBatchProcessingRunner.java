@@ -23,7 +23,6 @@ public class CsvToDBBatchProcessingRunner implements CommandLineRunner {
         		                                        .toJobParameters();
          JobExecution execution=launcher.run(job, params);
          System.out.println("Job Completion status::"+execution.getStatus());
-
 	}
 
 }

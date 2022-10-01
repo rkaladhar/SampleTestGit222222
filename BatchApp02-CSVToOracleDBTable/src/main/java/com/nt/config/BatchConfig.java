@@ -32,8 +32,6 @@ public class BatchConfig {
 	private JobBuilderFactory jobFactory;
 	@Autowired
 	private StepBuilderFactory stepFactory;
-	
-	
 	// listener
 	@Bean
 	public  JobExecutionListener  createListener() {

@@ -11,4 +11,5 @@ public class Employee  {
 	private  Integer grossSalary;
 	private  Integer  netSalary;
 
+	
 }

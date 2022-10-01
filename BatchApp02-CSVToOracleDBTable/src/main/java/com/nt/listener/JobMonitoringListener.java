@@ -13,7 +13,6 @@ public class JobMonitoringListener implements JobExecutionListener {
 		System.out.println("Job is about to Start @"+new Date());
 
 	}
-
 	@Override
 	public void afterJob(JobExecution jobExecution) {
 	   end=System.currentTimeMillis();
